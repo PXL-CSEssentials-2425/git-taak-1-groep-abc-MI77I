@@ -34,6 +34,7 @@ namespace Kleurenpsychologie
         {
             Background = Brushes.LightGray;
             kleurcodeTextBox.Text = " ";
+            informatieTextBox.Text = " ";
         }
 
         private void Yellow_MouseEnter(object sender, MouseEventArgs e)
@@ -45,6 +46,7 @@ namespace Kleurenpsychologie
         {
             Background = Brushes.LightGray;
             kleurcodeTextBox.Text = " ";
+            informatieTextBox.Text = " ";
         }
 
         private void Green_MouseEnter(object sender, MouseEventArgs e)
@@ -56,6 +58,7 @@ namespace Kleurenpsychologie
         {
             Background = Brushes.LightGray;
             kleurcodeTextBox.Text = " ";
+            informatieTextBox.Text = " ";
         }
 
         private void Blue_MouseEnter(object sender, MouseEventArgs e)
@@ -67,26 +70,31 @@ namespace Kleurenpsychologie
         {
             Background = Brushes.LightGray;
             kleurcodeTextBox.Text = " ";
+            informatieTextBox.Text = " ";
         }
 
         private void Red_MouseDown(object sender, MouseButtonEventArgs e)
         {
             kleurcodeTextBox.Text = "Rood: #FF0000";
+            informatieTextBox.Text = "Rood is de kleur van warmte. ";
         }
 
         private void Yellow_MouseDown(object sender, MouseButtonEventArgs e)
         {
             kleurcodeTextBox.Text = "Geel: #FFFF00";
+            informatieTextBox.Text = "Geel is de kleur van levenslust.";
         }
 
         private void Green_MouseDown(object sender, MouseButtonEventArgs e)
         {
             kleurcodeTextBox.Text = "Groen: #008000";
+            informatieTextBox.Text = "Groen is de kleur van genezing.";
         }
 
         private void Blue_MouseDown(object sender, MouseButtonEventArgs e)
         {
             kleurcodeTextBox.Text = "Blauw: #0000FF";
+            informatieTextBox.Text = "Blauw is de kleur van intelligentie.";
         }
     }
 }
