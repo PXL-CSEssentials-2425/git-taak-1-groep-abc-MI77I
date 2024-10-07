@@ -24,5 +24,45 @@ namespace Kleurenpsychologie
         {
             InitializeComponent();
         }
+
+        private void Red_MouseEnter(object sender, MouseEventArgs e)
+        {
+            Background = Brushes.Red;
+        }
+
+        private void Red_MouseLeave(object sender, MouseEventArgs e)
+        {
+            Background = Brushes.LightGray;
+        }
+
+        private void Yellow_MouseEnter(object sender, MouseEventArgs e)
+        {
+            Background = Brushes.Yellow;
+        }
+
+        private void Yellow_MouseLeave(object sender, MouseEventArgs e)
+        {
+            Background = Brushes.LightGray;
+        }
+
+        private void Green_MouseEnter(object sender, MouseEventArgs e)
+        {
+            Background = Brushes.Green;
+        }
+
+        private void Green_MouseLeave(object sender, MouseEventArgs e)
+        {
+            Background = Brushes.LightGray;
+        }
+
+        private void Blue_MouseEnter(object sender, MouseEventArgs e)
+        {
+            Background = Brushes.Blue;
+        }
+
+        private void Blue_MouseLeave(object sender, MouseEventArgs e)
+        {
+            Background = Brushes.LightGray;
+        }
     }
 }
